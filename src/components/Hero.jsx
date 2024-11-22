@@ -3,7 +3,7 @@ import Logo from "../assets/logo.jpg";
 import hero1 from "../assets/h2.jpeg";
 import { motion } from 'framer-motion';
 import { FaArrowDown } from "react-icons/fa";
-
+import Products from "./precomponents/Products";
 const Hero = () => {
   return (
     <>
@@ -103,6 +103,7 @@ const Hero = () => {
         <h2 className="text-3xl font-bold text-black mb-4">Let’s Find Your Dream Property</h2>
         <p className="text-lg text-gray-800">Explore our exclusive collection of luxury homes that match your vision.</p>
       </motion.section>
+   <Products/>
     </>
   );
 };

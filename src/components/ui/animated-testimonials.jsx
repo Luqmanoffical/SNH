@@ -4,6 +4,7 @@ import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
+import { Img } from 'react-image';
 export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
   // State to manage the active testimonial index
   const [active, setActive] = useState(0);
@@ -73,7 +74,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
                   }}
                   className="absolute inset-0 origin-bottom"
                 >
-                  <img
+                  <Img
                     src={testimonial.src}
                     alt={testimonial.name}
                     width={500}
