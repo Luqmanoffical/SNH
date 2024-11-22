@@ -1,30 +1,53 @@
 import React from 'react';
+import v1 from '../assets/Vector1.png'
+import v2 from '../assets/Vector2.png'
+import v3 from '../assets/Vector3.png'
+import v4 from '../assets/Vector4.png'
+import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
 
 const Services = () => {
   return (
-    <section className="py-16" id="services">
+    <section className="py-16 text-gray-900 bg-[#E7C873]" id="services">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-semibold mb-6">What We Offer</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
-          <div className="p-6 border rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-4">Residential Sales</h3>
-            <p>Find the perfect home for you and your family.</p>
+        <h2 className="text-3xl font-semibold mb-3">What We Offer</h2>
+        <p className='mb-4 font-semibold text-gray-800 px-'>
+        We offer a wide range of real estate services, from buying and selling to investment advice, ensuring you find the perfect property to meet your needs
+        </p>
+        <div className="flex justify-between gap-6">
+          <div className="p-4    w-1/5     ">
+            <div  className='flex justify-center items-center'>
+              <img src={v1} alt="v1" className='w-14 h-[57px]' />
+            </div>
+            <h3 className="text-lg font-semibold    mb-2" >Residential Sales</h3>
+            <p className='text-sm '>Find the perfect home for you and your family.</p>
           </div>
-          <div className="p-6 border rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-4">Commercial Properties</h3>
-            <p>Businesses looking for space? We have options.</p>
+          <div className="p-4    w-1/5    ">
+            <div className='flex justify-center items-center'>
+            <HiOutlineBuildingOffice2 size={60}/>
+            </div>
+            <h3 className="text-lg font-semibold    mb-2" >Commercial Properties</h3>
+            <p className='text-sm'>Businesses looking for space? We have options.</p>
           </div>
-          <div className="p-6 border rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-4">Rental Properties</h3>
-            <p>Short-term or long-term rentals tailored to your needs.</p>
+          <div className="py-4 px-0 w-1/5     ">
+          <div className='flex justify-center items-center'>
+              <img src={v2} alt="v1" className='w-14 h-[57px]' />
+            </div>
+            <h3 className="text-lg font-semibold    mb-2" >Rental Properties</h3>
+            <p className='text-sm'>Short-term or long-term rentals tailored to your needs.</p>
           </div>
-          <div className="p-6 border rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-4">Property Management</h3>
-            <p>Let us manage your property for you.</p>
+          <div className="py-4 px-0    w-1/5     ">
+          <div className='flex justify-center items-center'>
+              <img src={v4} alt="v4" className='w-14 h-[57px]'  />
+            </div>
+            <h3 className="text-lg font-semibold    mb-2" >Property Management</h3>
+            <p className='text-sm'>Let us manage your property for you.</p>
           </div>
-          <div className="p-6 border rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-4">Investment Advice</h3>
-            <p>We offer guidance for investors looking to maximize returns.</p>
+          <div className="p-4  w-1/5   ">
+          <div  className='flex justify-center items-center'>
+              <img src={v3} alt="v3" className='w-14 h-[57px]'/>
+            </div>
+            <h3 className="text-lg font-semibold    mb-2" >Investment Advice</h3>
+            <p className='text-sm'>We offer guidance for investors looking to maximize returns.</p>
           </div>
         </div>
       </div>

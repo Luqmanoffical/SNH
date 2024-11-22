@@ -4,6 +4,7 @@ import hero1 from "../assets/h2.jpeg";
 import { motion } from 'framer-motion';
 import { FaArrowDown } from "react-icons/fa";
 import Products from "./precomponents/Products";
+
 const Hero = () => {
   return (
     <>
@@ -33,7 +34,7 @@ const Hero = () => {
         </div>
 
         {/* Hero Image Section */}
-        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="absolute inset-0 bg-black h-screen opacity-50"></div>
         <motion.div
           className="relative z-10 text-white text-center py-8 px-8 md:px-36 md:py-10"
           initial={{ opacity: 0 }}
@@ -52,21 +53,21 @@ const Hero = () => {
           <div className="mb-8">
             <div className="flex space-x-6 justify-center">
               <motion.div
-                className="card w-56  flex items-center justify-center py-6   bg-[#b084148e] text-white rounded-lg shadow-lg hover:scale-105 transform transition duration-300 ease-in-out"
+                className="card w-56  flex items-center justify-center py-6   bg-[#E7C8738e] text-white rounded-lg shadow-lg hover:scale-105 transform transition duration-300 ease-in-out"
                 whileHover={{ scale: 1.1, boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.3)" }}
                 whileTap={{ scale: 0.95 }}
               >
                 <h3 className="text-xl  font-semibold ">Curated Luxury</h3>
               </motion.div>
               <motion.div
-                className="card w-56   bg-[#b084148e] text-white flex items-center justify-center   rounded-lg shadow-lg hover:scale-105 transform transition duration-300 ease-in-out"
+                className="card w-56   bg-[#E7C8738e] text-white flex items-center justify-center   rounded-lg shadow-lg hover:scale-105 transform transition duration-300 ease-in-out"
                 whileHover={{ scale: 1.1, boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.3)" }}
                 whileTap={{ scale: 0.95 }}
               >
                 <h3 className="text-xl font-semibold ">Iconic Locations</h3>
               </motion.div>
               <motion.div
-                className="card w-56   bg-[#b084148e] text-white rounded-lg shadow-lg flex items-center justify-center   hover:scale-105 transform transition duration-300 ease-in-out"
+                className="card w-56   bg-[#E7C8738e] text-white rounded-lg shadow-lg flex items-center justify-center   hover:scale-105 transform transition duration-300 ease-in-out"
                 whileHover={{ scale: 1.1, boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.3)" }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -95,7 +96,7 @@ const Hero = () => {
       {/* Start Journey Section */}
       <motion.section
         id="start-journey"
-        className="py-24 relative bg-dubai-sand-light text-center"
+        className="pt-24 pb-0 relative bg-dubai-sand-light text-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5, delay: 0.5 }}

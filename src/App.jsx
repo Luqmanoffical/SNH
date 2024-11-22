@@ -10,10 +10,10 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="font-sans bg-white text-gray-900">
+    <div className="font-sans bg- text-gray-900">
       <Hero />
       <main>
-        <AboutUs />
+        {/* <AboutUs /> */}
         <Services />
         <FeaturedListings />
         <WhyChooseUs />
