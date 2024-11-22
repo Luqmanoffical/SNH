@@ -36,59 +36,178 @@ import P34 from  "../../assets/sp1.1.jpg";
 import P35 from  "../../assets/sp1.2.jpg";
 import P36 from  "../../assets/sp1.3.jpg";
 
+// function Products() {
+//     return (
+//       <div className="max-w-7xl mx-auto px-6 py-12">
+//         {/* Product 1 */}
+//         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+//           <div className="w-full h-full">
+//             < img src={P1} alt="p1" className="w-full h-full object-cover rounded-lg shadow-lg" />
+//           </div>
+//           <div>
+//             <h1 className="text-3xl font-semibold text-gray-800 mb-4">Club Drive</h1>
+//             <p className="text-lg text-gray-600 mb-6">
+//               Club Drive at Dubai Hills Estate, brought to life by Emaar Properties, is a captivating addition to Dubai’s thriving urban landscape. This development offers an array of 1, 2, and 3-bedroom apartments. Nestled in the Green heart of Dubai, these twin towers promise a life of luxury, providing residents with a serene oasis boasting open vistas and breathtaking golf course views.
+//             </p>
+//             <button className="px-6 py-3 bg-[#b08414] text-white font-semibold rounded-lg shadow-lg   transition duration-300 ease-in-out">
+//               Inquire Now
+//             </button>
+//           </div>
+//         </div>
+  
+//         {/* Product 2 */}
+//         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+//           <div className="w-full h-full">
+//             < img src={P7} alt="p7" className="w-full h-full object-cover rounded-lg shadow-lg" />
+//           </div>
+//           <div>
+//             <h1 className="text-3xl font-semibold text-gray-800 mb-4">Haven</h1>
+//             <p className="text-lg text-gray-600 mb-6">
+//               Aldar’s first residential development, Haven is coming to Dubai. Make your home in a place where every moment has been curated to enhance your wellbeing; from the undulating landscape, to the community wellness centre, to the gently flowing stream, providing a rippling soundtrack to your everyday.
+//             </p>
+//             <button className="px-6 py-3 bg-[#b08414] text-white font-semibold rounded-lg shadow-lg   transition duration-300 ease-in-out">
+//               Inquire Now
+//             </button>
+//           </div>
+//         </div>
+  
+//         {/* Product 3 */}
+//         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+//           <div className="w-full h-full">
+//             < img src={P13} alt="p13" className="w-full h-full object-cover rounded-lg shadow-lg" />
+//           </div>
+//           <div>
+//             <h1 className="text-3xl font-semibold text-gray-800 mb-4">Bugatti Residences</h1>
+//             <p className="text-lg text-gray-600 mb-6">
+//               The World’s first Bugatti Residences in Dubai. Developed by Binghatti, this exceptional project in Business Bay introduces 171 luxurious mansions and 11 sky mansion penthouses, redefining the concept of opulent living.
+//             </p>
+//             <button className="px-6 py-3 bg-[#b08414] text-white font-semibold rounded-lg shadow-lg   transition duration-300 ease-in-out">
+//               Inquire Now
+//             </button>
+//           </div>
+//         </div>
+//       </div>
+//     );
+//   }
+  
+//   export default Products;
+ 
+
+import { motion } from 'framer-motion'; // Import framer-motion for animation
+
+
 function Products() {
-    return (
-      <div className="max-w-7xl mx-auto px-6 py-12">
-        {/* Product 1 */}
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-          <div className="w-full h-full">
-            <img src={P1} alt="p1" className="w-full h-full object-cover rounded-lg shadow-lg" />
+
+  return (
+    <div className="max-w-7xl mx-auto px-6 py-12">
+      {/* Product 1 */}
+      <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+        <motion.div
+          className="w-full h-full"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          < img src={P1} alt="p1" className="w-full h-full object-cover rounded-lg shadow-lg" />
+        </motion.div>
+        <div>
+          <h1 className="text-3xl font-semibold text-gray-800 mb-4">Club Drive</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            Club Drive at Dubai Hills Estate, brought to life by Emaar Properties, is a captivating addition to Dubai’s thriving urban landscape. This development offers an array of 1, 2, and 3-bedroom apartments. Nestled in the Green heart of Dubai, these twin towers promise a life of luxury, providing residents with a serene oasis boasting open vistas and breathtaking golf course views.
+          </p>
+          {/* Features Card */}
+          <div className="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+            <h3 className="text-xl font-semibold text-gray-800">Features</h3>
+            <ul className="text-gray-600">
+              <li>1, 2, 3 Bedroom Apartments</li>
+              <li>Golf Course Views</li>
+              <li>Community Swimming Pool</li>
+              <li>24/7 Security</li>
+            </ul>
           </div>
-          <div>
-            <h1 className="text-3xl font-semibold text-gray-800 mb-4">Club Drive</h1>
-            <p className="text-lg text-gray-600 mb-6">
-              Club Drive at Dubai Hills Estate, brought to life by Emaar Properties, is a captivating addition to Dubai’s thriving urban landscape. This development offers an array of 1, 2, and 3-bedroom apartments. Nestled in the Green heart of Dubai, these twin towers promise a life of luxury, providing residents with a serene oasis boasting open vistas and breathtaking golf course views.
-            </p>
-            <button className="px-6 py-3 bg-[#b08414] text-white font-semibold rounded-lg shadow-lg   transition duration-300 ease-in-out">
-              Inquire Now
-            </button>
-          </div>
-        </div>
-  
-        {/* Product 2 */}
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-          <div className="w-full h-full">
-            <img src={P7} alt="p7" className="w-full h-full object-cover rounded-lg shadow-lg" />
-          </div>
-          <div>
-            <h1 className="text-3xl font-semibold text-gray-800 mb-4">Haven</h1>
-            <p className="text-lg text-gray-600 mb-6">
-              Aldar’s first residential development, Haven is coming to Dubai. Make your home in a place where every moment has been curated to enhance your wellbeing; from the undulating landscape, to the community wellness centre, to the gently flowing stream, providing a rippling soundtrack to your everyday.
-            </p>
-            <button className="px-6 py-3 bg-[#b08414] text-white font-semibold rounded-lg shadow-lg   transition duration-300 ease-in-out">
-              Inquire Now
-            </button>
-          </div>
-        </div>
-  
-        {/* Product 3 */}
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-          <div className="w-full h-full">
-            <img src={P13} alt="p13" className="w-full h-full object-cover rounded-lg shadow-lg" />
-          </div>
-          <div>
-            <h1 className="text-3xl font-semibold text-gray-800 mb-4">Bugatti Residences</h1>
-            <p className="text-lg text-gray-600 mb-6">
-              The World’s first Bugatti Residences in Dubai. Developed by Binghatti, this exceptional project in Business Bay introduces 171 luxurious mansions and 11 sky mansion penthouses, redefining the concept of opulent living.
-            </p>
-            <button className="px-6 py-3 bg-[#b08414] text-white font-semibold rounded-lg shadow-lg   transition duration-300 ease-in-out">
-              Inquire Now
-            </button>
-          </div>
+          <motion.button
+            className="px-6 py-3 bg-[#b08414] text-white font-semibold rounded-lg shadow-lg transition duration-300 ease-in-out"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Inquire Now
+          </motion.button>
         </div>
       </div>
-    );
-  }
-  
-  export default Products;
-  
+
+      {/* Product 2 */}
+      <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+        <motion.div
+          className="w-full h-full"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          < img src={P7} alt="p7" className="w-full h-full object-cover rounded-lg shadow-lg" />
+        </motion.div>
+        <div>
+          <h1 className="text-3xl font-semibold text-gray-800 mb-4">Haven</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            Aldar’s first residential development, Haven is coming to Dubai. Make your home in a place where every moment has been curated to enhance your wellbeing; from the undulating landscape, to the community wellness centre, to the gently flowing stream, providing a rippling soundtrack to your everyday.
+          </p>
+          {/* Features Card */}
+          <div className="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+            <h3 className="text-xl font-semibold text-gray-800">Features</h3>
+            <ul className="text-gray-600">
+              <li>Community Wellness Centre</li>
+              <li>Flowing Stream</li>
+              <li>Wellbeing Focused Design</li>
+              <li>Luxury Finishes</li>
+            </ul>
+          </div>
+          <motion.button
+            className="px-6 py-3 bg-[#b08414] text-white font-semibold rounded-lg shadow-lg transition duration-300 ease-in-out"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Inquire Now
+          </motion.button>
+        </div>
+      </div>
+
+      {/* Product 3 */}
+      <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+        <motion.div
+          className="w-full h-full"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          < img src={P13} alt="p13" className="w-full h-full object-cover rounded-lg shadow-lg" />
+        </motion.div>
+        <div>
+          <h1 className="text-3xl font-semibold text-gray-800 mb-4">Bugatti Residences</h1>
+          <p className="text-lg text-gray-600 mb-6">
+            The World’s first Bugatti Residences in Dubai. Developed by Binghatti, this exceptional project in Business Bay introduces 171 luxurious mansions and 11 sky mansion penthouses, redefining the concept of opulent living.
+          </p>
+          {/* Features Card */}
+          <div className="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+            <h3 className="text-xl font-semibold text-gray-800">Features</h3>
+            <ul className="text-gray-600">
+              <li>171 Mansions</li>
+              <li>11 Sky Mansions</li>
+              <li>Exclusive Bugatti Design</li>
+              <li>High-End Amenities</li>
+            </ul>
+          </div>
+          <motion.button
+            className="px-6 py-3 bg-[#b08414] text-white font-semibold rounded-lg shadow-lg transition duration-300 ease-in-out"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Inquire Now
+          </motion.button>
+        </div>
+      </div>
+
+   
+    </div>
+  );
+}
+
+export default Products;
