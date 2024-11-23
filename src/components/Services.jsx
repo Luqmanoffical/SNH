@@ -1,8 +1,8 @@
 import React from 'react';
-import v1 from '../assets/Vector1.png'
-import v2 from '../assets/Vector2.png'
-import v3 from '../assets/Vector3.png'
-import v4 from '../assets/Vector4.png'
+import v1 from '../assets/Vector1.png';
+import v2 from '../assets/Vector2.png';
+import v3 from '../assets/Vector3.png';
+import vector4 from '../assets/Vector4.png';
 import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
 
 const Services = () => {
@@ -37,7 +37,7 @@ const Services = () => {
           </div>
           <div className="py-4 px-0    w-1/5     ">
           <div className='flex justify-center items-center'>
-              <img src={v4} alt="v4" className='w-14 h-[57px]'  />
+              <img src={vector4} alt="v4" className='w-14 h-[57px]'  />
             </div>
             <h3 className="text-lg font-semibold    mb-2" >Property Management</h3>
             <p className='text-sm'>Let us manage your property for you.</p>
