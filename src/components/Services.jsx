@@ -2,7 +2,7 @@ import React from 'react';
 import v1 from '../assets/Vector1.png';
 import v2 from '../assets/Vector2.png';
 import v3 from '../assets/Vector3.png';
-import vector4 from '../assets/Vector4.png';
+import vector4 from '../assets/vector4.png';
 import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
 
 const Services = () => {
