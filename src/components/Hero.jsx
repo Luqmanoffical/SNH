@@ -10,7 +10,7 @@ const Hero = () => {
     <>
       <section
         className="bg-cover bg-center h-screen"
-        style={{ backgroundImage: `url(${hero1})` }}
+        style={{ backgroundImage: `url(${hero1})`, fontFamily: "'Poppins', sans-serif" }}
       >
         {/* Header Section */}
         <div className="max-w-screen-xl mx-auto flex justify-between items-center p-6 md:p-8 relative z-10">
@@ -41,7 +41,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
         >
-          <h1 className="text-3xl md:text-6xl font-bold leading-tight mb-8">
+          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-8">
             Discover the Pinnacle of Dubai Living
           </h1>
           <p className="text-xl font-semibold mb-8">
@@ -53,21 +53,21 @@ const Hero = () => {
           <div className="mb-8">
             <div className="flex space-x-6 justify-center">
               <motion.div
-                className="card w-56  flex items-center justify-center py-6   bg-[#E7C8738e] text-white rounded-lg shadow-lg hover:scale-105 transform transition duration-300 ease-in-out"
+                className="card w-56  flex items-center justify-center py-6   bg-[#f0c54e8e] text-white rounded-lg shadow-lg hover:scale-105 transform transition duration-300 ease-in-out"
                 whileHover={{ scale: 1.1, boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.3)" }}
                 whileTap={{ scale: 0.95 }}
               >
                 <h3 className="text-xl  font-semibold ">Curated Luxury</h3>
               </motion.div>
               <motion.div
-                className="card w-56   bg-[#E7C8738e] text-white flex items-center justify-center   rounded-lg shadow-lg hover:scale-105 transform transition duration-300 ease-in-out"
+                className="card w-56   bg-[#f0c54e8e] text-white flex items-center justify-center   rounded-lg shadow-lg hover:scale-105 transform transition duration-300 ease-in-out"
                 whileHover={{ scale: 1.1, boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.3)" }}
                 whileTap={{ scale: 0.95 }}
               >
                 <h3 className="text-xl font-semibold ">Iconic Locations</h3>
               </motion.div>
               <motion.div
-                className="card w-56   bg-[#E7C8738e] text-white rounded-lg shadow-lg flex items-center justify-center   hover:scale-105 transform transition duration-300 ease-in-out"
+                className="card w-56   bg-[#f0c54e8e] text-white rounded-lg shadow-lg flex items-center justify-center   hover:scale-105 transform transition duration-300 ease-in-out"
                 whileHover={{ scale: 1.1, boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.3)" }}
                 whileTap={{ scale: 0.95 }}
               >

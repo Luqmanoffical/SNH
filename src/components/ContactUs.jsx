@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactUs = () => {
   return (
-    <section className="py-16" id="contact">
+    <section className="py-16"  style={{ fontFamily: "'Poppins', sans-serif" }} id="contact">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-6">Get in Touch</h2>
         <p className="text-lg mb-6">We’d love to help you with your real estate journey! Whether you’re ready to buy, sell, or just have questions, don’t hesitate to reach out.</p>

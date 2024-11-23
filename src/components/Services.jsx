@@ -7,11 +7,11 @@ import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
 
 const Services = () => {
   return (
-    <section className="py-16 text-gray-900 bg-[#E7C873]" id="services">
+    <section className="py-16 text-gray-900 bg-[#f0c54e]"  style={{ fontFamily: "'Poppins', sans-serif" }} id="services">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-3">What We Offer</h2>
-        <p className='mb-4 font-semibold text-gray-800 px-'>
-        We offer a wide range of real estate services, from buying and selling to investment advice, ensuring you find the perfect property to meet your needs
+        <p className='mb-8 text-gray-800 '>
+        We offer a wide range of real estate services, from buying and selling to investment advice, ensuring you find the perfect property.
         </p>
         <div className="flex justify-between gap-6">
           <div className="p-4    w-1/5     ">
@@ -21,7 +21,7 @@ const Services = () => {
             <h3 className="text-lg font-semibold    mb-2" >Residential Sales</h3>
             <p className='text-sm '>Find the perfect home for you and your family.</p>
           </div>
-          <div className="p-4    w-1/5    ">
+          <div className="py-4    w-1/5    ">
             <div className='flex justify-center items-center'>
             <HiOutlineBuildingOffice2 size={60}/>
             </div>

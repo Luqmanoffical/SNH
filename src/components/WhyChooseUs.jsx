@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-16" id="why-choose">
+    <section className="py-16"  style={{ fontFamily: "'Poppins', sans-serif" }}  id="why-choose">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-6">Our Commitment to Excellence</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">

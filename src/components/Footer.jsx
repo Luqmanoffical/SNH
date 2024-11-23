@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-500 text-white py-8">
+    <footer className="bg-blue-500 text-white py-8"  style={{ fontFamily: "'Poppins', sans-serif" }}>
       <div className="container mx-auto text-center">
         <div className="mb-6">
           <a href="#about" className="text-white hover:text-gray-300 mx-4">About</a>

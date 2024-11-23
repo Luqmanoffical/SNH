@@ -4,7 +4,7 @@ import p2 from "../assets/p3.1.jpg"
 
 const AboutUs = () => {
   return (
-    <section className="p-8 flex flex-col sm:flex-row justify-between w-full text-center bg-gray-50" id="about">
+    <section className="p-8 flex flex-col sm:flex-row justify-between w-full text-center bg-gray-50"  style={{ fontFamily: "'Poppins', sans-serif" }} id="about">
       {/* Left Section: Who We Are with Image */}
       <div className="w-full sm:w-1/2 lg:w-1/2 mb-8 px-4 sm:px-16 flex flex-col items-center sm:items-start">
         {/* Image on the left side */}
@@ -23,7 +23,7 @@ const AboutUs = () => {
       <div className="w-full sm:w-1/2 lg:w-1/2 flex flex-col gap-4">
         {/* Rectangular Section: Client-Centered Approach */}
         <div className="bg-[#dfdbdb31] border-2 border-gray-300 rounded-lg shadow-xl p-4 flex flex-col items-center justify-between transition-all transform hover:scale-105 hover:shadow-2xl">
-          <div className="text-[#E7C873] mb-4">
+          <div className="text-[#f0c54e] mb-4">
             <FaCalendarAlt size={35} />
           </div>
           <p className="text-lg font-semibold text-gray-800 mb-2">Client-Centered Approach</p>
@@ -36,7 +36,7 @@ const AboutUs = () => {
         <div className="w-full flex sm:flex-row flex-col justify-between gap-4">
           {/* First Block: Client-Centered Approach */}
           <div className="flex-1 bg-[#dfdbdb31] border-2 border-gray-300 rounded-lg shadow-lg p-4 flex flex-col items-center justify-between hover:shadow-2xl    transition-all transform hover:scale-105">
-            <div className="text-[#E7C873] mb-4">
+            <div className="text-[#f0c54e] mb-4">
               <FaUsers size={35} />
             </div>
             <p className="text-lg font-semibold text-gray-800 mb-2">Years of Experience</p>
@@ -45,7 +45,7 @@ const AboutUs = () => {
 
           {/* Second Block: Expert Agents */}
           <div className="flex-1 bg-white border-2 border-gray-300 rounded-lg shadow-lg p-4 flex flex-col items-center justify-between hover:shadow-2xl    transition-all transform hover:scale-105">
-            <div className="text-[#E7C873] mb-4">
+            <div className="text-[#f0c54e] mb-4">
               <FaChalkboardTeacher size={35} />
             </div>
             <p className="text-lg font-semibold text-gray-800 mb-2">Expert Agents</p>
