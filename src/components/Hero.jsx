@@ -36,7 +36,7 @@ const Hero = () => {
         {/* Hero Image Section */}
         <div className="absolute inset-0 bg-black h-screen opacity-50"></div>
         <motion.div
-          className="relative z-10 text-white text-center py-8 px-8 md:px-36 md:py-10"
+          className="relative z-10 text-white text-center py-8 px-8 md:px-36 md:py-20"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
@@ -51,7 +51,7 @@ const Hero = () => {
           </p>
 
           <div className="mb-8">
-            <div className="flex space-x-6 justify-center">
+            {/* <div className="flex space-x-6 justify-center">
               <motion.div
                 className="card w-56  flex items-center justify-center py-6   bg-[#f0c54e8e] text-white rounded-lg shadow-lg hover:scale-105 transform transition duration-300 ease-in-out"
                 whileHover={{ scale: 1.1, boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.3)" }}
@@ -73,7 +73,7 @@ const Hero = () => {
               >
                 <h3 className="text-xl font-semibold ">Expertise Like No Other</h3>
               </motion.div>
-            </div>
+            </div> */}
           </div>
 
          

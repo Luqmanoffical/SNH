@@ -1,26 +1,42 @@
 import React from 'react';
+import { MdPersonOutline, MdLocationOn } from 'react-icons/md';
+import { AiOutlineFileProtect } from 'react-icons/ai';
+import { RiCustomerServiceLine } from 'react-icons/ri';
+import { GrMapLocation } from "react-icons/gr";
+import { PiUsersThreeBold } from "react-icons/pi";
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-16"  style={{ fontFamily: "'Poppins', sans-serif" }}  id="why-choose">
+    <section className="py-4" style={{ fontFamily: "'Poppins', sans-serif" }} id="why-choose">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-semibold mb-6">Our Commitment to Excellence</h2>
+        <h2 className="text-3xl text-black font-semibold mb-6">Our Commitment to Excellence</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
-          <div>
-            <h3 className="text-xl font-semibold mb-2">Personalized Service</h3>
-            <p>Every client gets a custom-tailored approach.</p>
+          {/* Card 1 */}
+          <div className="flex flex-col items-center p-6 border rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <PiUsersThreeBold size={50} className="text-gray-950 mb-4" />
+            <h3 className="text-xl font-semibold text-gray-950 mb-2">Personalized Service</h3>
+            <p className="text-gray-600">Every client gets a custom-tailored approach.</p>
           </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-2">Local Expertise</h3>
-            <p>We know the market like no one else.</p>
+          
+          {/* Card 2 */}
+          <div className="flex flex-col items-center p-6 border rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <GrMapLocation size={50} className="text-gray-950 mb-4" />
+            <h3 className="text-xl font-semibold text-gray-950 mb-2">Local Expertise</h3>
+            <p className="text-gray-600">We know the market like no one else.</p>
           </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-2">Transparency</h3>
-            <p>We guide you with honesty and integrity.</p>
+
+          {/* Card 3 */}
+          <div className="flex flex-col items-center p-6 border rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <AiOutlineFileProtect size={50} className="text-gray-950 mb-4" />
+            <h3 className="text-xl font-semibold text-gray-950 mb-2">Transparency</h3>
+            <p className="text-gray-600">We guide you with honesty and integrity.</p>
           </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-2">End-to-End Support</h3>
-            <p>From inquiry to closing, we're with you every step of the way.</p>
+
+          {/* Card 4 */}
+          <div className="flex flex-col items-center p-6 border rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <RiCustomerServiceLine size={50} className="text-gray-950 mb-4" />
+            <h3 className="text-xl font-semibold text-gray-950 mb-2">End-to-End Support</h3>
+            <p className="text-gray-600">From inquiry to closing, we're with you every step of the way.</p>
           </div>
         </div>
       </div>

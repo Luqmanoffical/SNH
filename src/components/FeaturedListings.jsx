@@ -19,20 +19,20 @@ const FeaturedListings = () => {
             <div className="p-4 bg-white mb-4 relative group">
               <img src={P1} alt="P1" className="w-full h-[17rem] object-cover object-top  rounded-md" />
               {/* Button that appears when hovering over the image */}
-              <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2    bg-[#b8b6b686] text-white font-semibold rounded-2xl shadow-md opacity-0 group-hover:opacity-100 transition duration-300 px-6 py-3">
+              <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2      bg-[#ffffff6b] border w-[9rem] border-white text-white font-semibold rounded-2xl shadow-md opacity-0 group-hover:opacity-100 transition duration-300   py-3">
                 View Property
               </button>
             </div>
             <div className='flex w-full gap-4'> {/* Added gap between image cards */}
               <div className="w-1/2 p-4 bg-white relative group">
                 <img src={P2} alt="P2" className="w-full h-auto object-cover rounded-md" />
-                <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2    bg-[#b8b6b686] text-white font-semibold rounded-2xl shadow-md opacity-0 group-hover:opacity-100 transition duration-300 px-6 py-3">
+                <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2      bg-[#ffffff6b] border w-[9rem] border-white text-white font-semibold rounded-2xl shadow-md opacity-0 group-hover:opacity-100 transition duration-300   py-3">
                   View Property
                 </button>
               </div>
               <div className="w-1/2 p-4 bg-white relative group">
                 <img src={P3} alt="P3" className="w-full h-auto object-cover rounded-md" />
-                <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#b8b6b686] text-white font-semibold rounded-2xl shadow-md opacity-0 group-hover:opacity-100 transition duration-300 px-6 py-3">
+                <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2   bg-[#ffffff6b] border w-[9rem] border-white text-white font-semibold rounded-2xl shadow-md opacity-0 group-hover:opacity-100 transition duration-300  py-3">
                   View Property
                 </button>
               </div>
@@ -44,20 +44,20 @@ const FeaturedListings = () => {
             <div className='flex w-full gap-4'> {/* Added gap between image cards */}
               <div className="w-1/2 p-4 bg-white relative group">
                 <img src={P4} alt="P2" className="w-full h-auto object-cover rounded-md" />
-                <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2    bg-[#b8b6b686] text-white font-semibold rounded-2xl shadow-md opacity-0 group-hover:opacity-100 transition duration-300 px-6 py-3">
+                <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2      bg-[#ffffff6b] border w-[9rem] border-white text-white font-semibold rounded-2xl shadow-md opacity-0 group-hover:opacity-100 transition duration-300   py-3">
                   View Property
                 </button>
               </div>
               <div className="w-1/2 p-4 bg-white relative group">
                 <img src={P5} alt="P3" className="w-full h-auto object-cover rounded-md" />
-                <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2    bg-[#b8b6b686] text-white font-semibold rounded-2xl shadow-md opacity-0 group-hover:opacity-100 transition duration-300 px-6 py-3">
+                <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2      bg-[#ffffff6b] border w-[9rem] border-white text-white font-semibold rounded-2xl shadow-md opacity-0 group-hover:opacity-100 transition duration-300   py-3">
                   View Property
                 </button>
               </div>
             </div>
             <div className="p-4 bg-white mt-4 relative group">
               <img src={P5} alt="P1" className="w-full h-[17rem] object-cover  rounded-md" />
-              <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2    bg-[#b8b6b686] text-white font-semibold rounded-2xl shadow-md opacity-0 group-hover:opacity-100 transition duration-300 px-6 py-3">
+              <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2    bg-[#ffffff6b] border w-[9rem] border-white text-white font-semibold rounded-2xl shadow-md opacity-0 group-hover:opacity-100 transition duration-300   py-3">
                 View Property
               </button>
             </div>

@@ -13,8 +13,8 @@ const AboutUs = () => {
           alt="Real Estate Team" 
           className="w-4/5 sm:w-2/3 lg:w-full h-32 rounded-lg shadow-lg mb-6"
         />
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">Who We Are</h2>
-        <p className="text-xl text-justify text-gray-600 mb-6">
+        <h2 className="text-3xl font-bold text-gray-900 mb-4">Who We Are</h2>
+        <p className="text-xl text-justify text-gray-800 mb-6">
           At SNH, we are more than just a real estate agency — we are your trusted partner in navigating the complex world of property. Whether you're a first-time buyer looking to make your dream home a reality, an investor seeking profitable opportunities, or a seller aiming to get the best price for your property, our team of experienced professionals is here to guide you every step of the way.
         </p>
       </div>
