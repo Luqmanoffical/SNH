@@ -70,7 +70,7 @@ function Products() {
               slidesToShow: 1,
               slidesToScroll: 1,
               infinite: true,
-              dots: true
+              dots: false
             }
           },
           {
@@ -78,7 +78,8 @@ function Products() {
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              initialSlide: 1
+              initialSlide: 1,
+              dots: false
             }
           },
           {
