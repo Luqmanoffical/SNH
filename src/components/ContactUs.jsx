@@ -17,12 +17,12 @@ const ContactUs = () => {
     >       
       <div className="container mx-auto text-center">         
         <h2 className="text-3xl font-semibold mb-6">Get in Touch</h2>         
-        <p className="text-lg mb-6">We’d love to help you with your real estate journey! Whether you’re ready to buy, sell, or just have questions, don’t hesitate to reach out.</p>          
+        <p className="text-lg px-3 text-justify md:text-center mb-6">We’d love to help you with your real estate journey! Whether you’re ready to buy, sell, or just have questions, don’t hesitate to reach out.</p>          
 
-        <div className="flex flex-col sm:flex-row px-7 gap-20">            
+        <div className="flex flex-col sm:flex-row px-2 md:px-7 gap-20">            
           {/* Form Section */}           
-          <div className="w-full sm:w-[75%]">             
-            <form className="mt-8 mx-16  p-8 rounded-lg shadow-md border bg-gray-50 border-gray-200">               
+          <div className="w-full md:w-[75%]">             
+            <form className="mt-8 mx-1 md:mx-8 lg:mx-16  p-8 rounded-lg shadow-md border bg-gray-50 border-gray-200">               
               <div className="mb-6">                 
                 <label className="block text-start text-lg font-semibold text-gray-700">Name</label>                 
                 <input                    
@@ -56,7 +56,7 @@ const ContactUs = () => {
             </form>           
           </div>            
           {/* Video Section */}           
-          <div className="mt-6 sm:mt-0">             
+          <div className="mt-2 md:mt-6 sm:mt-0">             
             <div className="relative overflow-hidden rounded-lg ">               
               <video                  
                 src={video}                  

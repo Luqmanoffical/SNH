@@ -16,12 +16,12 @@ const FeaturedListings = () => {
   return (
     <section className="py-16 bg-white overflow-x-hidden" id="properties"  style={{ fontFamily: "'Poppins', sans-serif" }}>
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-semibold mb-6">Hot Properties for Sale</h2>
+        <h2 className="text-2xl md:text-3xl font-semibold mb-6">Hot Properties for Sale</h2>
 
-        <div className='flex w-full '> {/* Added gap between flex items */}
+        <div className='flex flex-col lg:flex-row w-full '> {/* Added gap between flex items */}
 
           {/* Left Half of the Section */}
-          <div className='w-1/2'>
+          <div className='w-full lg:w-1/2'>
             <div  data-aos="fade-right"
      data-aos-offset="100"
      data-aos-easing="ease-in-sine" className="p-4 bg-white  relative group">
@@ -52,7 +52,7 @@ const FeaturedListings = () => {
           </div>
 
           {/* Right Half of the Section */}
-          <div className='w-1/2'>
+          <div className='w-full lg:w-1/2'>
             <div className='flex w-full '  data-aos="fade-left"
      data-aos-offset="100"
      data-aos-easing="ease-in-sine"> {/* Added gap between image cards */}

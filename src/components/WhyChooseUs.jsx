@@ -16,7 +16,7 @@ const WhyChooseUs = () => {
   return (
     <section className="py-4" style={{ fontFamily: "'Poppins', sans-serif" }} id="why-choose">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl text-black font-semibold mb-6">Our Commitment to Excellence</h2>
+        <h2 className="text-2xl md:text-3xl text-black font-semibold mb-6">Our Commitment to Excellence</h2>
         <div data-aos="fade-up"
      data-aos-anchor-placement="center-bottom" data-aos-duration="1000" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Card 1 */}
