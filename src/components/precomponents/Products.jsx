@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import P1 from  "../../assets/p1.1.jpg";
 import P2 from  "../../assets/p1.2.jpg";
 import P3 from  "../../assets/p1.3.jpg";
@@ -44,9 +44,16 @@ import { FaPhoneAlt } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 function Products() {
-   const settings = {
+    useEffect(() => {
+        AOS.init({
+            duration: 1500,
+        });
+      }, []);
+    const settings = {
         dots: false,
         infinite: true,
         speed: 500,
@@ -88,7 +95,7 @@ function Products() {
     return (
         <div className="max-w-7xl mx-auto px-6 py-12">
             {/* Product 1 */}
-            <div className="flex gap-6 items-center mb-16">
+            <div data-aos="fade-up" className="flex gap-6 items-center mb-16">
                 <div className="w-[40%]">
                    <Slider {...settings}>
                         <motion.div
@@ -181,7 +188,7 @@ function Products() {
             </div>
 
             {/* Product 2 */}
-            <div className="flex gap-6 items-center mb-16">
+            <div data-aos="fade-up" className="flex gap-6 items-center mb-16">
             <div className="w-[40%]">
                    <Slider {...settings}>
                         <motion.div
@@ -258,7 +265,7 @@ function Products() {
                         </motion.div>
                     </Slider>
                 </div>
-                <div className="w-[60%]">
+                <div  className="w-[60%]">
                     <h1 className="text-3xl font-semibold text-gray-950 mb-4">Haven</h1>
                     <p className="text-lg text-gray-600 mb-6">
                         Aldar’s first residential development, Haven is coming to Dubai. Make your home in a place where every moment has been curated to enhance your wellbeing; from the undulating landscape, to the community wellness centre, to the gently flowing stream, providing a rippling soundtrack to your everyday.
@@ -274,7 +281,7 @@ function Products() {
             </div>
 
             {/* Product 3 */}
-            <div className="flex gap-6 items-center mb-16">
+            <div data-aos="fade-up" className="flex gap-6 items-center mb-16">
             <div className="w-[40%]">
                    <Slider {...settings}>
                         <motion.div
