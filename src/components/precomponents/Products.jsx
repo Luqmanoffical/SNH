@@ -93,10 +93,10 @@ function Products() {
       };
     
     return (
-        <div className="max-w-7xl mx-auto px-6 py-12">
+        <div className="w-full md:max-w-7xl mx-2 md:mx-auto px-2 md:px-6 py-12">
             {/* Product 1 */}
-            <div data-aos="fade-up" className="flex gap-6 items-center mb-16">
-                <div className="w-[40%]">
+            <div data-aos="fade-up" className="flex flex-col lg:flex-row  gap-6 items-center mb-16">
+                <div className=" w-full md:w-[40%]">
                    <Slider {...settings}>
                         <motion.div
                             className="h-64"
@@ -172,11 +172,18 @@ function Products() {
                         </motion.div>
                     </Slider>
                 </div>
-                <div className="w-[60%]">
+                <div className="w-full md:w-[60%]">
                     <h1 className="text-3xl font-semibold text-gray-950 mb-4">Club Drive</h1>
-                    <p className="text-lg text-gray-600 mb-6">
-                        Club Drive at Dubai Hills Estate, brought to life by Emaar Properties, is a captivating addition to Dubai’s thriving urban landscape. This development offers an array of 1, 2, and 3-bedroom apartments. Nestled in the Green heart of Dubai, these twin towers promise a life of luxury, providing residents with a serene oasis boasting open vistas and breathtaking golf course views.
-                    </p>
+                    <p className="text-lg text-gray-600 mb-1">
+                    Club Drive at Dubai Hills Estate by Emaar offers luxurious apartments with stunning golf course views in the heart of Dubai.                    </p>
+                    <ul class="space-y-2 my-3 text-gray-700 ">
+                        <li  class="flex items-start">
+                        <span class="mr-4 text-primary font-bold">•</span> Central to Dubai’s top attractions and key areas.</li>
+                        <li  class="flex items-start">
+                        <span class="mr-4 text-primary font-bold">•</span> Panoramic golf course vistas from every apartment</li>
+                        <li  class="flex items-start">
+                        <span class="mr-4 text-primary font-bold">•</span> Spacious, modern homes with top-tier amenities.</li>
+                    </ul>
                     <motion.button
                         className="px-0 py-3 w-[10rem] flex items-center justify-center bg-[#f0c54e] text-white font-semibold rounded-lg shadow-lg transition duration-300 ease-in-out"
                         whileHover={{ scale: 1.1 }}
@@ -188,8 +195,8 @@ function Products() {
             </div>
 
             {/* Product 2 */}
-            <div data-aos="fade-up" className="flex gap-6 items-center mb-16">
-            <div className="w-[40%]">
+            <div data-aos="fade-up" className="flex flex-col lg:flex-row  gap-6 items-center mb-16">
+            <div className="w-full md:w-[40%]">
                    <Slider {...settings}>
                         <motion.div
                             className="h-64"
@@ -265,11 +272,19 @@ function Products() {
                         </motion.div>
                     </Slider>
                 </div>
-                <div  className="w-[60%]">
+                <div  className="w-full md:w-[60%]">
                     <h1 className="text-3xl font-semibold text-gray-950 mb-4">Haven</h1>
-                    <p className="text-lg text-gray-600 mb-6">
-                        Aldar’s first residential development, Haven is coming to Dubai. Make your home in a place where every moment has been curated to enhance your wellbeing; from the undulating landscape, to the community wellness centre, to the gently flowing stream, providing a rippling soundtrack to your everyday.
-                    </p>
+                    <p className="text-lg text-gray-600 mb-1">
+                    Aldar’s first residential development, Haven, offers a serene and wellness-focused living experience in Dubai
+                        </p>
+                        <ul class="space-y-2 my-3 text-gray-700 ">
+                            <li class="flex items-start">
+                            <span class="mr-4 text-primary font-bold">•</span>Wellness-focused living with spaces designed to enhance well-being.</li>
+                            <li class="flex items-start">
+                            <span class="mr-4 text-primary font-bold">•</span>Serene landscapes and a flowing stream for a peaceful environment.</li>
+                            <li class="flex items-start">
+                            <span class="mr-4 text-primary font-bold">•</span>A vibrant community with a dedicated wellness centre for balanced living.</li>
+                        </ul>
                     <motion.button
                         className="px-0 py-3 w-[10rem] flex items-center justify-center bg-[#f0c54e] text-white font-semibold rounded-lg shadow-lg transition duration-300 ease-in-out"
                         whileHover={{ scale: 1.1 }}
@@ -281,8 +296,8 @@ function Products() {
             </div>
 
             {/* Product 3 */}
-            <div data-aos="fade-up" className="flex gap-6 items-center mb-16">
-            <div className="w-[40%]">
+            <div data-aos="fade-up" className="flex flex-col lg:flex-row  gap-6 items-center mb-16">
+            <div className="w-full md:w-[40%]">
                    <Slider {...settings}>
                         <motion.div
                             className="h-64"
@@ -383,11 +398,23 @@ function Products() {
 
                     </Slider>
                 </div>
-                <div className="w-[60%]">
+                <div className="w-full md:w-[60%]">
                     <h1 className="text-3xl font-semibold text-gray-950 mb-4">Bugatti Residences</h1>
-                    <p className="text-lg text-gray-600 mb-6">
-                        The World’s first Bugatti Residences in Dubai. Developed by Binghatti, this exceptional project in Business Bay introduces 171 luxurious mansions and 11 sky mansion penthouses, redefining the concept of opulent living.
-                    </p>
+                    <p className="text-lg text-gray-700 mb-1">
+                    Introducing the world’s first Bugatti Residences in Dubai, offering unparalleled luxury.   </p>
+          
+                    <ul class="space-y-2 my-3 text-gray-700 ">
+            <li class="flex items-start">
+                <span class="mr-4 text-primary font-bold">•</span> The world’s first Bugatti Residences, setting a new standard of luxury.
+            </li>
+            <li class="flex items-start">
+                <span class="mr-4 text-primary font-bold">•</span> 171 mansions and 11 sky mansion penthouses for the ultimate in exclusivity.
+            </li>
+            <li class="flex items-start">
+                <span class="mr-4 text-primary font-bold">•</span> Prime location in Business Bay, Dubai, offering unmatched prestige.
+            </li>
+        </ul>
+          
                     <motion.button
                         className="px-0 py-3 w-[10rem] flex items-center justify-center bg-[#f0c54e] text-white font-semibold rounded-lg shadow-lg transition duration-300 ease-in-out"
                         whileHover={{ scale: 1.1 }}

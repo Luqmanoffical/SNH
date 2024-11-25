@@ -12,10 +12,15 @@ const Hero = () => {
         className="bg-cover bg-center h-screen"
         style={{ backgroundImage: `url(${hero1})`, fontFamily: "'Poppins', sans-serif" }}
       >
+        <div className='py-3'>
+
+        </div>
         {/* Header Section */}
-        <div className="max-w-screen-xl mx-auto flex justify-between items-center p-6 md:p-8 relative z-10">
-          <img src={Logo} alt="logo" className="w-10 h-10 rounded-full" />
-          <div className="space-x-6 text-white">
+        <div className="max-w-screen-xl mx-auto flex justify-between rounded-2xl bg-[#07070759] items-center py-6 px-10 md:py-4 relative z-10">
+          <div className='flex items-center'>
+          <img src={Logo} alt="logo" className="w-10 h-10 rounded-full" /> <span className='ml-2 text-white text-2xl font-semibold '> SNH Properties</span>
+          </div> 
+           <div className="space-x-6 text-white">
             <a 
               href="#contact" 
               className="text-lg font-medium text-white hover:text-gray-300 transition duration-300"
