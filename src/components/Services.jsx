@@ -13,15 +13,15 @@ const Services = () => {
         <p className='mb-8 text-gray-800 '>
         We offer a wide range of real estate services, from buying and selling to investment advice, ensuring you find the perfect property.
         </p>
-        <div className="flex justify-between gap-6">
-          <div className="p-4    w-1/4     ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="p-4        ">
             <div  className='flex justify-center items-center'>
               <img src={v1} alt="v1" className='w-14 h-[57px]' />
             </div>
             <h3 className="text-lg font-semibold    mb-2" >Residential Sales</h3>
             <p className='text-sm '>Find the perfect home for you and your family.</p>
           </div>
-          <div className="py-4    w-1/4    ">
+          <div className="py-4         ">
             <div className='flex justify-center items-center'>
             <HiOutlineBuildingOffice2 size={60}/>
             </div>
@@ -35,14 +35,14 @@ const Services = () => {
             <h3 className="text-lg font-semibold    mb-2" >Rental Properties</h3>
             <p className='text-sm'>Short-term or long-term rentals tailored to your needs.</p>
           </div> */}
-          <div className="py-4 px-0    w-1/4     ">
+          <div className="py-4 px-0          ">
           <div className='flex justify-center items-center'>
               <img src={vector4} alt="v4" className='w-14 h-[57px]'  />
             </div>
             <h3 className="text-lg font-semibold    mb-2" >Property Management</h3>
             <p className='text-sm'>Let us manage your property for you.</p>
           </div>
-          <div className="p-4  w-1/4   ">
+          <div className="p-4      ">
           <div  className='flex justify-center items-center'>
               <img src={v3} alt="v3" className='w-14 h-[57px]'/>
             </div>
