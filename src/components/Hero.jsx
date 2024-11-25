@@ -1,6 +1,6 @@
 import React , { useState } from 'react';
 import Logo from "../assets/logo.jpg";
-import hero1 from "../assets/h01.jpg";
+import hero1 from "../assets/h2.png";
 import { motion } from 'framer-motion';
 import { FaArrowDown } from "react-icons/fa";
 import Products from "./precomponents/Products";
@@ -74,7 +74,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
         >
-          <h1 className={`text-xl md:text-4xl lg:text-5xl ${isMenuOpen ? 'text-transparent' : 'text-white'} font-bold leading-tight mb-4 md:mb-8`}>
+          <h1 className={`text-xl md:text-4xl xl:text-5xl ${isMenuOpen ? 'text-transparent' : 'text-white'} font-bold leading-tight mb-4 md:mb-8`}>
             Discover the Pinnacle of Dubai Living
           </h1>
           <p className="sm:text-sm md:text-base lg:text-xl  text-justify md:text-center font-semibold mb-1 md:mb-8">
@@ -83,7 +83,7 @@ const Hero = () => {
        
           </p>
 
-          <div className="mb-0 md:mb-8">
+          <div className="mb-0 ">
             {/* <div className="flex space-x-6 justify-center">
               <motion.div
                 className="card w-56  flex items-center justify-center py-6   bg-[#f0c54e8e] text-white rounded-lg shadow-lg hover:scale-105 transform transition duration-300 ease-in-out"
