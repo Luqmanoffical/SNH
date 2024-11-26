@@ -97,7 +97,7 @@ function Products() {
         <div className="w-full md:max-w-7xl mx-2 md:mx-auto px-2 md:px-6 py-12">
             {/* Product 1 */}
             <div data-aos="fade-up" className="flex flex-col lg:flex-row  gap-6 items-center mb-16">
-                <div className=" w-full md:w-[40%]">
+                <div className=" w-[85%] md:w-[40%]">
                    <Slider {...settings}>
                         <motion.div
                             className="h-64"
@@ -197,7 +197,7 @@ function Products() {
 
             {/* Product 2 */}
             <div data-aos="fade-up" className="flex flex-col lg:flex-row  gap-6 items-center mb-16">
-            <div className="w-full md:w-[40%]">
+            <div className="w-[85%] md:w-[40%]">
                    <Slider {...settings}>
                         <motion.div
                             className="h-64"
@@ -298,7 +298,7 @@ function Products() {
 
             {/* Product 3 */}
             <div data-aos="fade-up" className="flex flex-col lg:flex-row  gap-6 items-center mb-16">
-            <div className="w-full md:w-[40%]">
+            <div className="w-[85%] md:w-[40%]">
                    <Slider {...settings}>
                         <motion.div
                             className="h-64"

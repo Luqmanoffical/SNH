@@ -14,7 +14,7 @@ const WhyChooseUs = () => {
     });
   }, []);
   return (
-    <section className="py-4" style={{ fontFamily: "'Poppins', sans-serif" }} id="why-choose">
+    <section className="py-4 overflow-x-hidden" style={{ fontFamily: "'Poppins', sans-serif" }} id="why-choose">
       <div className="container mx-auto text-center">
         <h2 className="text-2xl md:text-3xl text-black font-semibold mb-6">Our Commitment to Excellence</h2>
         <div data-aos="fade-up"
